@@ -1,0 +1,32 @@
+#reseña{
+    color: red;
+}
+
+h1{ background-color: grey; text-align: center;padding: 30px; border-style: solid; 
+
+}
+
+.perfil{
+    text-align: center;
+}
+
+.perfil img{
+    border-style: solid ; color: rgb(141, 133, 133); 
+}
+
+#bloque_izq{
+    background-color: green; width: 600px; padding: 10px;
+}
+
+#bloque_der{
+    background-color: rgb(83, 140, 194); width: 420px; padding: 10px;
+}
+
+footer{
+    background-color: grey; text-align: center; padding: 10px;
+}
+
+form{
+    text-align: center; border-style: solid; padding: 10px;
+}
+

@@ -7,17 +7,21 @@
     <meta name="description" content="Esta es mi primer pagina Web">
     <meta name="keywords" content="Curriculum , web , Trabajo">
     <title>Mi curriculum Web</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
     <header>
         
-        <h1>Mi Curriculum</h1>
+        <h1 id="estilo1"> Mi Curriculum Web</h1>
+        <div class="perfil">
+            <img  src="imagen.png" alt="Mi foto" width="200" height="280" >
         
-        <img src="imagen.png" alt="Mi foto" width="200" height="280">
+        </div>
         
-        <section>
-            <div><H2>Experiencia Laboral</H2>
+        
+        <section id="bloque_izq">
+            <div><H2> <u><center>Experiencia Laboral</center> </u></H2>
                 <ul>
                     <li>
                         <h3><b>Nombre de la Empresa:</b> La Renata 2015-2017</h3> </li> <br>
@@ -63,12 +67,12 @@
 
         </section>
 
-        <section>
-            <h2>Acerca de Mi</h2>
+        <section id="bloque_der">
+            <h2><u><center>Acerca de Mi</center></u></h2>
             
                 <ul>
                     <li>
-                        <h3>Perfil</h3></li>
+                        <h3> Perfil</h3></li>
                             <table>
                                 <tr>
                                     <td><b>Nacionalidad: </b></td>
@@ -110,11 +114,14 @@
                                 <tr>
                                     <td><b>Telefono: </b></td>
                                     <td>1151511399</td>
+                                    
                                 </tr>
+                                
                                 <tr>
                                     <td><b>Mail: </b></td>
                                     <td>ger.desousa2@gmail.com</td>
                                 </tr>
+                               
                                 <tr>
                                     <td><b>Domicilio: </b></td>
                                     <td>Int. Mendiluce 143, S.A Padua, Merlo, Buenos Aires</td>
@@ -125,8 +132,9 @@
                 </ul>
         </section>
         
-        <h2>Quieres dejarme una reseña?</h2>
+        
         <form action="">
+            <h2 id="reseña">Quieres dejarme una reseña?</h2>
             <textarea name="comment" name="reseña" cols="30" rows="10" minlength="20" maxlength="200" required>Escribe aquí tu comentario...</textarea>
             <p>Tu Nombre: <input type="text" name="Nombre" required></p> 
             <p>Mail: <input type="email" name="Mail" required></p>
@@ -137,7 +145,7 @@
     </header>
 
     <footer>
-        <h5>Mas informacion</h5>
+        <h5>Mis enlaces</h5>
             <a href="https://www.facebook.com/jermyy" target="_blank">Facebook</a> <br>
             <a href="https://www.instagram.com/ger.desousa/" target="_blank">Instagram</a> <br>
             <a href="https://twitter.com/Jermi_" target="_blank">Twitter</a>
